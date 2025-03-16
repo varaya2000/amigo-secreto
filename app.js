@@ -5,7 +5,12 @@ function agregarAmigo(){
     amigo = document.getElementById('amigo').value;
     if (!validarEntrada(amigo)){
 
+        //error de entrada se trunca proceso
         return false;
+    }else{
+
+        amigos.push(amigo);
+        console.log(amigos);
     }
  //   alert(amigo);
 }
