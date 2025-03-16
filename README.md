@@ -4,5 +4,6 @@
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
    <p>
-   Aplicación básica para jugar al Amigo Secreto desarrollado en javascript, juego que consiste en agregar listadode amigos, luego se debe precionar el boton sortear, el cual aliatoriamente selecionara un amigo secreto
+   Aplicación básica para jugar al Amigo Secreto desarrollado en javascript, juego que consiste en agregar listado de amigos, luego se debe presionar el botón sortear, el cual aleatoriamente seleccionara un amigo secreto![image]
+
    </p>
