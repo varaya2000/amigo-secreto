@@ -3,5 +3,23 @@ let amigos = [];
 function agregarAmigo(){
     let amigo = '';
     amigo = document.getElementById('amigo').value;
+    if (!validarEntrada(amigo)){
+
+        return false;
+    }
  //   alert(amigo);
+}
+/*
+Funcion permite validar entrada de nombre    
+*/
+function validarEntrada(entrada){
+    
+    if (entrada==''){
+        alert('Por favor, inserte un nombre');
+        document.getElementById('amigo'). focus();
+        return false;
+    }else{
+        return true;
+    }
+
 }
