@@ -7,3 +7,9 @@
    Aplicación básica para jugar al Amigo Secreto desarrollado en javascript, juego que consiste en agregar listado de amigos, luego se debe presionar el botón sortear, el cual aleatoriamente seleccionara un amigo secreto!
 
    </p>
+<p>
+Pueden jugar desde el siguiente enlace [Link Text]([#sample-section](https://varaya2000.github.io/amigo-secreto/)).
+ 
+
+ 
+</p>
