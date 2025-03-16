@@ -10,6 +10,7 @@
 <p>
 Pueden jugar desde el siguiente enlace [Link Text]([#sample-section](https://varaya2000.github.io/amigo-secreto/)).
  
+ <img src="https://varaya2000.github.io/amigo-secreto/assets/demo.png">
 
- 
+
 </p>
