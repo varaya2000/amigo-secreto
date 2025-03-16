@@ -16,6 +16,18 @@ function agregarAmigo(){
     }
  //   alert(amigo);
 }
+function sortearAmigo{
+    //valida primero la lista no este vacia
+    if (amigos.length>0){
+        // continua la logica
+        return true;
+    }else{
+        alert('Aun no a ha agregado ningun amigo al listado');
+        document.getElementById('amigo').focus();
+        return false;
+    }
+
+}
 /*
 Funcion permite validar entrada de nombre    
 */
