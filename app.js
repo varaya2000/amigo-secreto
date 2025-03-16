@@ -16,7 +16,7 @@ function agregarAmigo(){
     }
  //   alert(amigo);
 }
-function sortearAmigo{
+function sortearAmigo(){
     //valida primero la lista no este vacia
     if (amigos.length>0){
         // continua la logica
