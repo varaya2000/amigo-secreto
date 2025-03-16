@@ -20,6 +20,10 @@ function sortearAmigo(){
     //valida primero la lista no este vacia
     if (amigos.length>0){
         // continua la logica
+        const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+        const amigoAleatorio = amigos[indiceAleatorio];
+        alert("amigo secreto es:" + amigoAleatorio);
+
         return true;
     }else{
         alert('Aun no a ha agregado ningun amigo al listado');
