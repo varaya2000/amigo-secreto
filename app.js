@@ -10,6 +10,8 @@ function agregarAmigo(){
     }else{
 
         amigos.push(amigo);
+        document.getElementById('amigo').value ='';
+        document.getElementById('amigo').focus();
         console.log(amigos);
     }
  //   alert(amigo);
