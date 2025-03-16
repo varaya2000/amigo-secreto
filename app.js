@@ -43,7 +43,32 @@ function validarEntrada(entrada){
         document.getElementById('amigo'). focus();
         return false;
     }else{
-        return true;
+        if (!validarNombre(entrada)){
+            document.getElementById('amigo').focus();
+            return false;
+        }else{
+            return true;
+        }
+       
     }
 
+}
+/* mejoras adicioanles
+validacion mas robusta de nombres, estos no pueden contener numero
+, ni ser menos de 2 caracteres ni menos ser mayora a 50 carcateres */
+
+function validarNombre(nombre) {
+    const regex = /^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+$/;
+    if (!nombre) {
+        alert( "El nombre no puede estar vacío.");
+        return false;
+
+    } else if (nombre.length < 2 || nombre.length > 50) {
+        alert("El nombre debe tener entre 2 y 50 caracteres.");
+        return false;
+    } else if (!regex.test(nombre)) {
+        alert( "El nombre solo puede contener letras y espacios.");
+        return false;
+    }
+    return true;
 }
